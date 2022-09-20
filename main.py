@@ -84,8 +84,8 @@ my_tuple = (1, 2, 3, 4)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-my_bool = 5 > 4
-print(my_bool)
+# my_bool = 5 > 4
+# print(my_bool)
 
 # > greater
 # < less
@@ -100,26 +100,38 @@ print(my_bool)
 # my_bool = 5 not in my_list #false
 
 # so we can see if we can make logical decisions if something is true or not
-var1 = True
-var2 = False
-print(type(var1))
-print(var1)
+# var1 = True
+# var2 = False
+# print(type(var1))
+# print(var1)
 
-list = [1,2,3,4,5,6]
-control = 5 in list
-print(type(control))
-print(control)
+# list = [1,2,3,4,5,6]
+# control = 5 in list
+# print(type(control))
+# print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
+# variable1= False
+# variable2= True
+# test = variable1
+# print(type(test))
+# print(test)
 
-
-
+# test =6 ==6
+# print(test)
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
+# b1 = 17834/34 > 87*56
+# print(b1)
+
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
+import math
+print(math.sqrt(25)==5)
+
+
 
 
 
