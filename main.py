@@ -31,35 +31,49 @@
 
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
 
-my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
-print(my_tuple.count(2))
-# Convert the following tuple to a list, and store it in a variable called my_list.
+# my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
+# print(my_tuple.count(2))
+# # Convert the following tuple to a list, and store it in a variable called my_list.
 
-my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
-my_list = list(my_tuple)
-print(my_list)
-#Extract the elements of the following tuple into four variables: a, b, c, d
+# my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
+# my_list = list(my_tuple)
+# print(my_list)
+# #Extract the elements of the following tuple into four variables: a, b, c, d
 
 my_tuple = (1, 2, 3, 4)
-a = my_tuple
-b = my_tuple
-c = my_tuple
+# a = my_tuple
+# b = my_tuple
+# c = my_tuple
 
 
 
 #################################################sets######################################################
-
+#sets are similar to tuples. The only difference is that they will not contain
+# any repeated elements
+my_firstSet= set((1,2,2,2,3,4,5))
+print(my_firstSet)
+print(2 in my_firstSet)#true statement
+print(6 in my_firstSet)
 
 # Join the following sets into one, called my_set_3:
 
-{1, 2, "three", "four"}
+set1 = {1, 2, "three", "four"}
 
-{"three", 4, 5}
+set2 = {"three", 4, 5}
 
-
+s3 = set1.union(set2)
+print(s3)
+s3.add(8)
+print(s3)
 # Remove a random item from the following set, using set methods.
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+raffle.remove("Rachel")
+print(raffle)
+raffle.remove("Phoebe")
+print(raffle)
+raffle.add("John")
+print(raffle)
 
 
 
