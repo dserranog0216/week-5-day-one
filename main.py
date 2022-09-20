@@ -1,4 +1,4 @@
-##############################################################################################################
+#############################################################################################
 # David Serrano
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple,
@@ -6,38 +6,45 @@
 #you define a tuple with () instead of [] like you would in lists
 #once you define it, you cannot change it
 #example
-coordinates = (4, 5)
-# get the first element in the above tuple
-print(coordinates[0])
-# lets make this a multidimensional array
-coordinates2 = [(4, 5), (6, 7), (80, 34)]
-#get the second element of the second item in coordinates2
-print(coordinates2[1][1])
-# we use parentheses not [] in tuples
-my_tuple1 = (1, 2, 3, 4)
-print(my_tuple1[1])
-# get the second item in the tuple1 above
-my_tuple = (1, 2, (10, 20), 4)
+# coordinates = (4, 5)
+# # get the first element in the above tuple
+# print(coordinates[0])
+# # lets make this a multidimensional array
+# coordinates2 = [(4, 5), (6, 7), (80, 34)]
+# #get the second element of the second item in coordinates2
+# print(coordinates2[1][1])
+# # we use parentheses not [] in tuples
+# my_tuple1 = (1, 2, 3, 4)
+# print(my_tuple1[1])
+# # get the second item in the tuple1 above
+# my_tuple = (1, 2, (10, 20), 4)
 
-# get the second item in the 3rd item above
-#hint multidimensional array thinking
-print(my_tuple[2][1])
-# place these numbers in separate variables from the tuple below
-t = (1, 2, 3)
-
-#get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
+# # get the second item in the 3rd item above
+# #hint multidimensional array thinking
+# print(my_tuple[2][1])
+# # place these numbers in separate variables from the tuple below
+# t = (1, 2, 3)
+# x,y,z = t
+# print(x,y,z)
+# print(len(my_tuple))
+# #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
 
 my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
-
+print(my_tuple.count(2))
 # Convert the following tuple to a list, and store it in a variable called my_list.
 
 my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
-
+my_list = list(my_tuple)
+print(my_list)
 #Extract the elements of the following tuple into four variables: a, b, c, d
 
 my_tuple = (1, 2, 3, 4)
+a = my_tuple
+b = my_tuple
+c = my_tuple
+
 
 
 #################################################sets######################################################
