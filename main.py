@@ -50,42 +50,42 @@ my_tuple = (1, 2, 3, 4)
 #################################################sets######################################################
 #sets are similar to tuples. The only difference is that they will not contain
 # any repeated elements
-my_firstSet= set((1,2,2,2,3,4,5))
-print(my_firstSet)
-print(2 in my_firstSet)#true statement
-print(6 in my_firstSet)
+# my_firstSet= set((1,2,2,2,3,4,5))
+# print(my_firstSet)
+# print(2 in my_firstSet)#true statement
+# print(6 in my_firstSet)
 
-# Join the following sets into one, called my_set_3:
+# # Join the following sets into one, called my_set_3:
 
-set1 = {1, 2, "three", "four"}
+# set1 = {1, 2, "three", "four"}
 
-set2 = {"three", 4, 5}
+# set2 = {"three", 4, 5}
 
-s3 = set1.union(set2)
-print(s3)
-s3.add(8)
-print(s3)
-# Remove a random item from the following set, using set methods.
+# s3 = set1.union(set2)
+# print(s3)
+# s3.add(8)
+# print(s3)
+# # Remove a random item from the following set, using set methods.
 
-raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-raffle.remove("Rachel")
-print(raffle)
-raffle.remove("Phoebe")
-print(raffle)
-raffle.add("John")
-print(raffle)
+# raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+# raffle.remove("Rachel")
+# print(raffle)
+# raffle.remove("Phoebe")
+# print(raffle)
+# raffle.add("John")
+# print(raffle)
 
 
 
 # Add the name Gunther to the following set, using set methods:
 
-raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+#raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -95,23 +95,27 @@ raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
+# my_list = {1,2,3,4,5,6,7}
+# my_bool = 5 in my_list #true
+# my_bool = 5 not in my_list #false
 
 # so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
+
+
+
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
 
